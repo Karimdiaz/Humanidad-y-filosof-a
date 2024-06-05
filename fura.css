@@ -1,0 +1,83 @@
+body {
+    background-image: url(fondo3.jpg);
+    background-repeat: no-repeat;
+     background-size: cover;
+     background-attachment: scroll;
+    background-attachment: scroll;
+}
+h1{
+    text-align: center;
+    color: blue;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 80px;
+}
+P{
+    color: rgb(0, 0, 0);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+link{
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(4, 205, 255);
+}
+p1 {
+    color: peachpuff;
+    font-family: 'Comic Sans MS', Times, serif;
+    font-size: 50px;
+}
+form{
+    width: 25%;
+    background-color: blue;
+    border: 1px solid blue;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    color: black;
+}
+label{
+    font-family: monospace;
+    font-size: 15px;
+    display: flexbox;
+    width: 100%;
+    margin-bottom: 15px;
+}
+textarea{
+    resize: vertical;
+    margin-right: auto;
+    margin-left: auto;
+}
+input, 
+textarea {
+    font-family: monospace;
+    font-size: 16px;
+    width: 100%;
+    padding: 5px;
+    border: 1px solid black;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+input[type="submit"]{
+background-color: peachpuff;
+color: black;
+margin-bottom: 0px;
+border: none;
+border-radius: 10px;
+font-family: monospace;
+}
+input[type="submit"]:hover{
+background: peachpuff;
+cursor: pointer;
+}
+.inicio {
+    background-color: rgb(0, 178, 238); 
+    color: black;
+    text-decoration: transparent;
+    padding: 20px;
+    width: 100px;
+    height: 20px;
+    font-size: 20px;
+    align-content: center;
+    border-radius: 10px;
+    font-family: cursive;
+}

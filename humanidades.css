@@ -1,0 +1,57 @@
+
+body {
+    background-color: turquoise;
+    background-repeat: no-repeat;
+     background-size: cover;
+     background-attachment: scroll;
+    background-attachment: scroll;
+}
+h1{
+    font-size: 80px;
+    align-content: center;
+    font-family: 'Times New Roman', Times, serif, fantasy, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode',
+    Geneva, Verdana, sans-serif;
+}
+p{
+    font-size: 30px;
+    align-content: center;
+    font-family: sans-serif;
+    color: rgb(0, 0, 0)7, 90)7, 90);
+    align-self: center;
+    text-align: justify;
+}
+
+#header {
+    margin: auto;
+    width: 800px;
+    font-family: 'Times New Roman', Times, serif;
+}
+ul,ol {
+    list-style: none;
+}
+.nav>li{
+    float: left;
+}
+.nav li a {
+    
+    background-color: blue;
+    color: black;
+    text-decoration:wavy;
+    padding: 20px 20px;
+    display: block;
+    
+}
+.nav li a:hover{
+    background-color: rgb(255, 255, 7);
+}
+.nav li ul{
+    display: none;
+    position: fixed;
+    min-width: 150px;
+}
+.nav li:hover ul{
+    display: block;
+}
+.nav li ul li {
+    position: static;
+}
